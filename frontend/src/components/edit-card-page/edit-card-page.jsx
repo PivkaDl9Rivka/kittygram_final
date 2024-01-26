@@ -1,3 +1,4 @@
+
 import React from "react";
 import { useHistory } from "react-router-dom";
 
@@ -125,6 +126,7 @@ export const EditCardPage = ({ data, setData, extraClass = "" }) => {
           <div className={styles.img_box}>
             <img
               className={styles.current_img}
+              src={card.image}
               src={card.image_url}
               alt="Фото котика."
             />
