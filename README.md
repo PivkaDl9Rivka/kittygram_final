@@ -1,4 +1,4 @@
-https://github.com/PivkaDl9Rivka/kittygram_final/actions/workflows/main.yml
+![Результат выполнения workflows](https://github.com/PivkaDl9Rivka/kittygram_final/actions/workflows/main.yml)
 
 ## Описание
 Проект Kittygram даёт возможность пользователям поделиться фотографиями и достижениями своих любимых котиков. Зарегистрированные пользователи могут создавать, просматривать, редактировать и удалять свои записи.
@@ -35,6 +35,8 @@ docker-compose up
 docker compose exec backend python manage.py migrate
 docker compose exec backend python manage.py createsuperuser
 docker compose exec backend python manage.py collectstatic
+
+
 
 ## Автор
 Паранин Максим
