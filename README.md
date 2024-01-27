@@ -1,4 +1,4 @@
-![Результат выполнения workflows](https://github.com/PivkaDl9Rivka/kittygram_final/actions/workflows/main.yml)
+![Результат выполнения workflows](https://github.com/PivkaDl9Rivka/kittygram_final/actions/workflows/main.yml/badge.svg)
 
 ## Описание
 Проект Kittygram даёт возможность пользователям поделиться фотографиями и достижениями своих любимых котиков. Зарегистрированные пользователи могут создавать, просматривать, редактировать и удалять свои записи.
@@ -6,14 +6,14 @@
 
 
 ## Teхнологии 
-*Python
-*Django
-*Djangorestframework
-*Djoser
-*Gunicorn
-*pytest
-*Docker
-*React (frontend)
+* Python
+* Django
+* Djangorestframework
+* Djoser
+* Gunicorn
+* pytest
+* Docker
+* React (frontend)
 
 К проекту подключена база PostgreSQL.Предусмотрена автоматическая упаковка частей проекта(backend, frontend, nginx, db) в образы с помощью Docker и размещение их в удаленном репозитории на DockerHub, а также автоматизация деплоя на удаленный сервер с помощью GitHub actions. На удаленном сервере установлена операционная система Ubuntu. Перед деплоем предусмотрено автоматическое тестирование backend части проекта с помощью pytest.
 
