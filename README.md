@@ -30,14 +30,14 @@ python manage.py migrate
 python manage.py runserver
 
 ## Локальный запуск проекта через Docker
-1. В корневой дирректории выполните команды:
+1. В корневой дирректории выполните команды
 docker-compose up
 docker compose exec backend python manage.py migrate
 docker compose exec backend python manage.py createsuperuser
 docker compose exec backend python manage.py collectstatic
 
 ## Пример заполнения .env
-1. Создать .env, в которой нужно заполнить строки по примеру:
+1. Создать .env, в которой нужно заполнить строки по примеру
 POSTGRES_DB=kittygram
 POSTGRES_USER=kittygram_user
 POSTGRES_PASSWORD=kittygram_password
