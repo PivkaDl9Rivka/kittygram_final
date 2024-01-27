@@ -1,4 +1,4 @@
-https://github.com/PivkaDl9Rivka/kittygram_final/actions/workflows/main.yml
+![Результат выполнения workflows](https://github.com/PivkaDl9Rivka/kittygram_final/actions/workflows/main.yml)
 
 ## Описание
 Проект Kittygram даёт возможность пользователям поделиться фотографиями и достижениями своих любимых котиков. Зарегистрированные пользователи могут создавать, просматривать, редактировать и удалять свои записи.
@@ -35,6 +35,20 @@ docker-compose up
 docker compose exec backend python manage.py migrate
 docker compose exec backend python manage.py createsuperuser
 docker compose exec backend python manage.py collectstatic
+
+## Пример заполнения .env
+1. Создать .env, в которой нужно заполнить строки по примеру:
+POSTGRES_DB=kittygram
+POSTGRES_USER=kittygram_user
+POSTGRES_PASSWORD=kittygram_password
+DB_NAME=kittygram
+DB_HOST=db
+DB_PORT=5432
+
+SECRET_KEY='jgfddtnk-kjhjhggm%mllpoplnvfc'
+DEBUG=False
+ALLOWED_HOSTS=127.0.0.1,localhost,mysite.ru
+
 
 ## Автор
 Паранин Максим
